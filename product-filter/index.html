@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Filter</title>
 </head>
 <body>
     <h1>Product Filter</h1>
+
+    <label for="filter">Filter by:</label>
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="tech">Tech</option>
+        <option value="clothes">Clothes</option>
+    </select>
+
+    <div id="product-list">
+        <div class="product" data-type="tech">Phone</div>
+        <div class="product" data-type="clothes">T-Shirt</div>
+        <div class="product" data-type="tech">Laptop</div>
+        <div class="product" data-type="clothes">Jeans</div>
+        <div class="product" data-type="accesories">watch</div>
+        <div class="product" data-type="accesories">necklace</div>
+
+    </div>
+  <script src="filterss.js"></script>
 </body>
 </html>
